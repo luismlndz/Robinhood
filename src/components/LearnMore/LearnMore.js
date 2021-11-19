@@ -8,7 +8,7 @@ export default function LearnMore() {
       <section className="learn-more__table">
         <div className="learn-more__item">
           <p className="learn-more__table-text">
-            Text text text text text text
+            Why should I consider investing in Crypto?
           </p>
           <img
             src={chevron}
@@ -18,7 +18,7 @@ export default function LearnMore() {
         </div>
         <div className="learn-more__item">
           <p className="learn-more__table-text">
-            Text text text text text text
+            Which Cryptocurrencies exist?
           </p>
           <img
             src={chevron}
@@ -27,9 +27,7 @@ export default function LearnMore() {
           />
         </div>
         <div className="learn-more__item">
-          <p className="learn-more__table-text">
-            Text text text text text text
-          </p>
+          <p className="learn-more__table-text">How do I get started?</p>
           <img
             src={chevron}
             alt="right arrow menu icon"
@@ -38,17 +36,7 @@ export default function LearnMore() {
         </div>
         <div className="learn-more__item">
           <p className="learn-more__table-text">
-            Text text text text text text
-          </p>
-          <img
-            src={chevron}
-            alt="right arrow menu icon"
-            className="learn-more__table-icon"
-          />
-        </div>
-        <div className="learn-more__item">
-          <p className="learn-more__table-text">
-            Text text text text text text
+            Strategies and best practices
           </p>
           <img
             src={chevron}
@@ -57,7 +45,7 @@ export default function LearnMore() {
           />
         </div>
       </section>
-      <button>See Crypto Articles</button>
+      <button className="learn-more__button">See Crypto Articles</button>
     </article>
   );
 }
