@@ -1,7 +1,5 @@
 .cards-section {
   padding: 0 138px;
-  &__header {
-  }
 
   &__title {
     margin: 0;
@@ -20,6 +18,8 @@
   &__cards-container {
     display: flex;
     justify-content: space-between;
+    max-width: 1160px;
+    margin: 0 auto;
   }
 
   &__card {
@@ -33,6 +33,7 @@
     box-shadow: 0.2em 0em 0.3em -0.2em rgb(104, 103, 103);
     &--middle {
       background-color: #ec6687;
+      margin: 0 1rem;
     }
     &--right {
       background-color: #f3b2c4;
@@ -50,8 +51,5 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.75rem;
-  }
-
-  &__card-image {
   }
 }
