@@ -1,4 +1,4 @@
-.cards-section {
+.cards-section-2 {
   padding: 0 138px;
 
   &__header {
@@ -30,17 +30,17 @@
     height: 540px;
     width: 374px;
     border-radius: 20px;
-    background-color: #5ac23a;
+    background-color: #efebe6;
     padding: 1.75rem;
     box-sizing: border-box;
     text-align: left;
     box-shadow: 0.2em 0em 0.3em -0.2em rgb(104, 103, 103);
     &--middle {
-      background-color: #ec6687;
+      background-color: #f6c86a;
       margin: 0 1rem;
     }
     &--right {
-      background-color: #f3b2c4;
+      background-color: #b3cbbe;
     }
   }
 
