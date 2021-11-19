@@ -1,15 +1,19 @@
 .cards-section {
   padding: 0 138px;
 
+  &__header {
+    text-align: center;
+  }
+
   &__title {
-    margin: 0;
+    margin: 0 auto;
     font-size: 3.5rem;
     font-weight: 400;
     padding: 4rem 0 2rem;
   }
 
   &__subtitle {
-    margin: 0;
+    margin: 0 auto;
     font-size: 1.5rem;
     font-weight: 400;
     padding-bottom: 4rem;
@@ -44,12 +48,20 @@
     margin: 0;
     font-size: 2rem;
     font-weight: 400;
-    height: 2.5em;
+    height: 3em;
   }
 
   &__card-text {
     margin: 0;
     font-size: 1rem;
     line-height: 1.75rem;
+    padding-right: 1.75rem;
+  }
+  &__card-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
   }
 }
