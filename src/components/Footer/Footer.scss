@@ -5,6 +5,9 @@
   }
 
   &__bottom {
-    height: 700px;
+    background: url("../../assets/images/footer.png") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 60vw;
   }
 }

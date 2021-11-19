@@ -22,7 +22,6 @@ export default function Footer() {
       </div>
       <div
         class="footer__bottom"
-        style={{ backgroundImage: `url(${footer})` }}
       />
     </footer>
   );
