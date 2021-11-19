@@ -1,13 +1,12 @@
-import './Home.scss'
+import './HowItWorks.scss'
 import Stats from '../../components/Stats/Stats'
 import Hero from '../../components/Hero/Hero'
-import Crypto101 from '../../components/Crypto101/Crypto101'
 
-export default function Home(props) {
+export default function HowItWorks(props) {
     return (
         <div>
             <Hero/>
-            <Crypto101/>
+            <Stats/>
         </div>
-    )
+    );
 }

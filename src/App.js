@@ -1,18 +1,17 @@
 import "./App.scss";
 import Home from "./pages/Home/Home";
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import Crypto101 from "./components/Crypto101/Crypto101";
-import LearnMore from "./components/LearnMore/LearnMore";
+import HowItWorks from "./pages/HowItWorks/HowItWorks";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Crypto101 />
-      <LearnMore />
-      <Home />
-    </div>
+    <Router>
+      <Header/>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route path='/howitworks' component={HowItWorks}/>
+      </Switch>
+    </Router>
   );
 }
