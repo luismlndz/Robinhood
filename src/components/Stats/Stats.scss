@@ -1,0 +1,50 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+
+  &-title {
+  }
+
+  &-text {
+  }
+
+  &-search {
+    background: url("../../assets/icons/search.svg") 0.75rem no-repeat;
+    padding: 0rem 3rem;
+    border: 1px solid silver;
+    border-radius: 1rem;
+    height: 2rem;
+    margin: 1.5rem 0rem;
+    margin-top: 1rem;
+  }
+
+  &-container {
+    overflow: hidden;
+    border: 1px solid silver;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-image {
+    margin: 1rem;
+  }
+}
+
+.fluctuation {
+  display: flex;
+  flex-direction: column;
+  background-color: #ddedd7;
+  border-radius: 0.25rem;
+  padding: 1rem;
+
+  &-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  &-text {
+    font-size: 0.75rem;
+  }
+}
