@@ -20,9 +20,7 @@ export default function Footer() {
           applicable, will be furnished upon request.
         </p>
       </div>
-      <div
-        class="footer__bottom"
-      />
+      <div class="footer__bottom"/>
     </footer>
   );
 }

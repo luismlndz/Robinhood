@@ -1,6 +1,8 @@
 import './HowItWorks.scss'
 import Stats from '../../components/Stats/Stats'
 import Hero2 from '../../components/Hero2/Hero2'
+import Footer from '../../components/Footer/Footer';
+import Next from '../../components/Next/Next';
 
 export default function HowItWorks(props) {
     return (
@@ -11,6 +13,8 @@ export default function HowItWorks(props) {
                 <p className='crypto-section-text'>Get the information you need to make informed and confident investment decisions.</p>
             </div>
             <Stats/>
+            <Next />
+            <Footer/>
         </div>
     );
 }

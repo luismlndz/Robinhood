@@ -1,5 +1,7 @@
 import './Stats.scss'
 import bitcoin from '../../assets/images/bitcoin.png'
+import dogecoin from '../../assets/images/dogecoin.png'
+import ethereum from '../../assets/images/ethereum.png'
 import notFound from '../../assets/images/notfound.png'
 import { useState, useEffect } from 'react'
 import PredictionCard from '../PredictionCard/PredictionCard'
@@ -11,7 +13,7 @@ export default function Stats(props) {
         {
             "name": "bitcoin",
             "image": bitcoin,
-            "fluctuations": "The price of Bitcoin is determined by many factors, including supply and demand, competition and even current events. In some ways, it acts similarly to gold and other traditionally traded commodities. As with any investment, you should consider volatility when you’re considering investing in cryptocurrencies. Learn more about volatility here.",
+            "fluctuations": "The price is determined by many factors, including supply and demand, competition and even current events. In some ways, it acts similarly to gold and other traditionally traded commodities. As with any investment, you should consider volatility when you’re considering investing in cryptocurrencies. Learn more about volatility here.",
             "coinName": "BTC",
             "investments": [
                 {
@@ -42,10 +44,70 @@ export default function Stats(props) {
             ]
         },
         {
-    
+            "name": "dogecoin",
+            "image": dogecoin,
+            "fluctuations": "The price is determined by many factors, including supply and demand, competition and even current events. In some ways, it acts similarly to gold and other traditionally traded commodities. As with any investment, you should consider volatility when you’re considering investing in cryptocurrencies. Learn more about volatility here.",
+            "coinName": "DOGE",
+            "investments": [
+                {
+                    "time": "1 year Ago",
+                    "return": "+$95,534.05",
+                    "color": "green"
+                },
+                {
+                    "time": "6 months Ago",
+                    "return": "-$381.17",
+                    "color": "red"
+                },
+                {
+                    "time": "3 months Ago",
+                    "return": "-$223.38",
+                    "color": "red"
+                },
+                {
+                    "time": "1 month Ago",
+                    "return": "+$228.27",
+                    "color": "green"
+                },
+                {
+                    "time": "24 hours Ago",
+                    "return": "+$183.46",
+                    "color": "green"
+                }
+            ]
         },
         {
-    
+            "name": "ethereum",
+            "image": ethereum,
+            "fluctuations": "The price is determined by many factors, including supply and demand, competition and even current events. In some ways, it acts similarly to gold and other traditionally traded commodities. As with any investment, you should consider volatility when you’re considering investing in cryptocurrencies. Learn more about volatility here.",
+            "coinName": "ETH",
+            "investments": [
+                {
+                    "time": "1 year Ago",
+                    "return": "+$6,213.19",
+                    "color": "green"
+                },
+                {
+                    "time": "6 months Ago",
+                    "return": "+$712.04",
+                    "color": "red"
+                },
+                {
+                    "time": "3 months Ago",
+                    "return": "+$251.80",
+                    "color": "red"
+                },
+                {
+                    "time": "1 month Ago",
+                    "return": "+$213.63",
+                    "color": "green"
+                },
+                {
+                    "time": "24 hours Ago",
+                    "return": "+$41.48",
+                    "color": "green"
+                }
+            ]
         }
     ]
 
