@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   margin: 1rem;
+  border-bottom: 1px solid black;
 
   @include desktop {
     margin: 0rem 7rem;
@@ -30,6 +31,7 @@
       width: 25vw;
       height: 3rem;
       border-radius: 1.5rem;
+      font-size: 1rem;
     }
   }
 
@@ -71,5 +73,46 @@
       font-size: 1rem;
       margin: 1rem 2rem;
     }
+  }
+}
+
+.predictions {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 2rem;
+  justify-content: center;
+
+  &-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+}
+
+.risk {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 5rem;
+
+  &-title-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-title {
+    margin-left: 0.5rem;
+  }
+
+  &-text {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  &-icon {
+    background: url("../../assets/images/risk.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 60px;
   }
 }

@@ -1,0 +1,10 @@
+@use "../../styles/global" as *;
+
+.crypto-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin: 3rem 7rem;
+  padding-bottom: 3rem;
+}
