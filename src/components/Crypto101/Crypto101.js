@@ -12,40 +12,48 @@ export default function Crypto101() {
       </header>
       <section className="cards-section__cards-container">
         <div className="cards-section__card">
-          <h3 className="cards-section__card-title">Card Title</h3>
+          <h3 className="cards-section__card-title">What is crypto?</h3>
           <p className="cards-section__card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi
+            Crypto is a digital way of exchangng value, like money. It's a
+            digital asset used for payments and investments.
           </p>
-          <img
-            src={wizard}
-            alt="mysterious bitcoin person in robes"
-            className="cards-section__card-image"
-          />
+          <div className="cards-section__card-image-container">
+            <img
+              src={wizard}
+              alt="mysterious bitcoin person in robes"
+              className="cards-section__card-image"
+            />
+          </div>
         </div>
         <div className="cards-section__card cards-section__card--middle">
-          <h3 className="cards-section__card-title">Card Title</h3>
+          <h3 className="cards-section__card-title">What is the blockchain?</h3>
           <p className="cards-section__card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi
+            Blockchain technology is the way public records of crypto ownership
+            are stored and safely updated in many places at once.
           </p>
-          <img
-            src={blockchain}
-            alt="person interacting with world of blockchain"
-            className="cards-section__card-image"
-          />
+          <div className="cards-section__card-image-container">
+            <img
+              src={blockchain}
+              alt="person interacting with world of blockchain"
+              className="cards-section__card-image"
+            />
+          </div>
         </div>
         <div className="cards-section__card cards-section__card--right">
-          <h3 className="cards-section__card-title">Card Title</h3>
+          <h3 className="cards-section__card-title">
+            Is it safe to invest in?
+          </h3>
           <p className="cards-section__card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi
+            Yes! It's fast, simple and safe, especially for cross border
+            payments to friends or family in another country.
           </p>
-          <img
-            src={security}
-            alt="abstract digital transaction with security symbols"
-            className="cards-section__card-image"
-          />
+          <div className="cards-section__card-image-container">
+            <img
+              src={security}
+              alt="abstract digital transaction with security symbols"
+              className="cards-section__card-image"
+            />
+          </div>
         </div>
       </section>
     </article>

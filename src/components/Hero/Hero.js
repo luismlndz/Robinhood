@@ -1,6 +1,7 @@
 import "./Hero.scss";
 import error from "../../assets/icons/error_outline_black_24dp.svg";
 import bitcoin from "../../assets/images/bitcoin-on-phone.svg.png";
+import { Link } from "react-router-dom";
 
 export default function Hero(props) {
   return (
@@ -13,7 +14,9 @@ export default function Hero(props) {
             <p className="hero__text">
               What you need to know about cryptocurrency
             </p>
-            <button className="hero__button">See how it works</button>
+            <Link to="/howitworks">
+              <button className="hero__button">See how it works</button>
+            </Link>
             <div className="hero__disclosure">
               <img
                 src={error}
