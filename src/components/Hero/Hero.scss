@@ -1,0 +1,31 @@
+.hero {
+  height: 490px;
+  background-color: #ec6687;
+  box-shadow: inset 0 2em 3em -3em black;
+
+  &__title {
+    margin: 0;
+  }
+  &__content {
+  }
+  &__flex-container {
+    display: flex;
+  }
+  &__subtitle {
+    margin: 0;
+  }
+  &__text {
+    margin: 0;
+  }
+  &__button {
+  }
+  &__disclosure {
+  }
+  &__disclosure-text {
+    margin: 0;
+  }
+  &__disclosure-icon {
+  }
+  &__image-container {
+  }
+}

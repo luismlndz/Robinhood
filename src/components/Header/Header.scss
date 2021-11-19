@@ -1,19 +1,42 @@
 .header {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
+  overflow: hidden;
   &__logo {
-    height: 75px;
+    height: 100px;
   }
   &__nav {
+    display: flex;
   }
-  &__nav-line {
-    background-color: black;
-    height: 3px;
-    width: 30px;
-    &:last-of-type {
-      margin-top: 10px;
+  &__nav-item {
+    display: flex;
+    align-items: center;
+    padding-left: 4rem;
+  }
+  &__nav-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+  &__nav-icon {
+    height: 2rem;
+    padding: 0.25rem 0 0 0.5rem;
+  }
+  &__button-container {
+  }
+  &__button {
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+    height: 61px;
+    margin: 9px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    &--color {
+      background-color: #ec6687;
+      width: 186px;
     }
   }
 }
